@@ -9,7 +9,7 @@ class NewsController extends Controller
 {
     public function showNews(NewsService $newsService)
     {
-        $news = $newsService->getAll();
+        $news = $newsService->getAll(6);
         return view('news', compact('news'));
     }
 }

@@ -1,13 +1,12 @@
 :root {
     --color-primary: #000080;
-    --color-secondary: #e6b800; 
-    --color-accent: #c4b454; 
+    --color-secondary: #e6b800;
+    --color-accent: #c4b454;
 
-
-    --color-success: #28a745; 
-    --color-warning: #ffc107; 
-    --color-danger: #dc3545; 
-    --color-info: #17a2b8; 
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-info: #17a2b8;
 
     --color-text: #212529;
     --color-light: #f8f9fa;
@@ -65,7 +64,6 @@
     border-color: var(--color-secondary);
 }
 
-
 .text-success {
     color: var(--color-success);
 }
@@ -79,7 +77,6 @@
     color: var(--color-info);
 }
 
-
 .text-text {
     color: var(--color-text);
 }
@@ -88,4 +85,65 @@
 }
 .text-border {
     color: var(--color-border);
+}
+
+/* @media screen and (max-width: 300px) {
+    #navBar {
+        justify-content: center !important;
+    }
+
+    #searchBar {
+        justify-content: center !important;
+    }
+
+    #logo {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    #navbarSupportedContent {
+        justify-content: end !important;
+    }
+
+    #toggler {
+        justify-content: end !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #searchBar {
+        justify-content: center !important;
+    }
+
+    #navBar {
+        justify-content: center !important;
+    }
+
+    #logo {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    #navbarSupportedContent {
+        justify-content: end !important;
+    }
+} */
+
+@media screen and (max-width: 990px) {
+    #searchBar {
+        justify-content: center !important;
+    }
+
+    #navBar {
+        justify-content: center !important;
+    }
+
+    #logo {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    #navbarSupportedContent {
+        justify-content: end !important;
+    }
 }

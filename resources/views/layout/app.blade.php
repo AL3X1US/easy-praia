@@ -13,12 +13,14 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
   </script>
 
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
 
 <body>
   @include('layout.components.nav')
 
-  <div class="container">
+  <div class="container padding-top-start">
     <main>
       @yield('content')
     </main>

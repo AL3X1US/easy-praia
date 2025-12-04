@@ -4,7 +4,7 @@ use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');
+    return redirect('/news');
 });
 
 Route::get('/news', [NewsController::class, 'showNews'])->name('newsView');

@@ -123,4 +123,9 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'vite_url' => env('VITE_HMR_URL', 'https://localhost'), // 🎯 AGGIUNGI QUESTA RIGA
+
+    'asset_url' => env('ASSET_URL'),
+
+
 ];
